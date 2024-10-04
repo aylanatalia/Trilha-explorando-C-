@@ -1,0 +1,14 @@
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\bin\Debug\net9.0\trilha-explorando-C#.exe
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\bin\Debug\net9.0\trilha-explorando-C#.deps.json
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\bin\Debug\net9.0\trilha-explorando-C#.runtimeconfig.json
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\bin\Debug\net9.0\trilha-explorando-C#.dll
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\bin\Debug\net9.0\trilha-explorando-C#.pdb
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\obj\Debug\net9.0\trilha-explorando-C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\obj\Debug\net9.0\trilha-explorando-C#.AssemblyInfoInputs.cache
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\obj\Debug\net9.0\trilha-explorando-C#.AssemblyInfo.cs
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\obj\Debug\net9.0\trilha-explorando-C#.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\obj\Debug\net9.0\trilha-explorando-C#.dll
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\obj\Debug\net9.0\refint\trilha-explorando-C#.dll
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\obj\Debug\net9.0\trilha-explorando-C#.pdb
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\obj\Debug\net9.0\trilha-explorando-C#.genruntimeconfig.cache
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\obj\Debug\net9.0\ref\trilha-explorando-C#.dll
