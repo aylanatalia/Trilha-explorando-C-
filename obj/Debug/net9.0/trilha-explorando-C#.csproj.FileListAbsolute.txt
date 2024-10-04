@@ -12,3 +12,4 @@ C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C
 C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\obj\Debug\net9.0\trilha-explorando-C#.pdb
 C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\obj\Debug\net9.0\trilha-explorando-C#.genruntimeconfig.cache
 C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\obj\Debug\net9.0\ref\trilha-explorando-C#.dll
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\trilha-explorando-C#\obj\Debug\net9.0\trilha-explorando-C#.sourcelink.json
