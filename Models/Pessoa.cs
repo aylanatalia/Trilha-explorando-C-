@@ -19,6 +19,13 @@ namespace trilha_explorando_C_.Models
             Sobrenome = sobrenome;
         }
 
+        //desconstrutor
+        public void Deconstruct(out string nome, out string sobrenome)
+        {
+            nome = Nome;
+            sobrenome = Sobrenome;
+        }
+
         // campo para armazenar o nome
         private string _nome;
         private int _idade;

@@ -1,5 +1,6 @@
 ﻿using System.Globalization;
 using System.Reflection;
+using System.Reflection.Metadata;
 using trilha_explorando_C_.Models;
 
 // instanciando um novo objeto
@@ -180,3 +181,59 @@ if(estados.ContainsKey(chave))
 }
 
 Console.WriteLine(estados["MG"]);
+
+
+//declarando uma tupla, sendo a primeira sendo a mais recomendada por questão de legibilidade
+(int id, string Nome, string Sobrenome, decimal Altura) tupla = (1, "Ayla", "Natalia", 1.88M);
+//ValueTuple<int, string, string, decimal> outroExemploTupla = (2, "Jocimari", "Lourdes", 1.70M);
+//var outroExemploTuplaCriado = Tuple.Create(3, "Felipe", "Augusto", 1.84M);
+
+Console.WriteLine("Tupla:");
+Console.WriteLine($"id: {tupla.id}");
+Console.WriteLine($"nome: {tupla.Nome}");
+Console.WriteLine($"Sobrenome: {tupla.Sobrenome}");
+Console.WriteLine($"Altura: {tupla.Altura}");
+
+//retornando tuplas atraves de métodos
+// este underline informa que a informação trazida não sera usada e sim descartada
+LeituraArquivo arquivo = new LeituraArquivo();
+var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/ArquivoLeitura.txt");
+
+if(sucesso)
+{
+    //Console.WriteLine("Quantidade de linhas do arquivo: " + quantidadeLinhas);
+    foreach(string linha in linhasArquivo)
+    {
+        Console.WriteLine(linha);
+    }
+}
+else
+{
+    Console.WriteLine("Não foi possível ler o arquivo");
+}
+
+//chamando construtor
+Pessoa p10 = new Pessoa("Ayla", "Natalia");
+
+//chamando desconstrutor
+(string nome, string sobrenome) = p10;
+Console.WriteLine($"{nome} {sobrenome}");
+
+
+//chamando um metodo da maneira convencional
+int numeroVerificado = 20;
+if(numeroVerificado % 2 == 0)
+{
+    Console.WriteLine($"O número {numeroVerificado} é par");
+}
+else
+{
+    Console.WriteLine($"O número {numeroVerificado} é impar");
+}
+
+// chamdno método da maneira ternaria
+int numeroChecado = 15;
+bool ehPar = true;
+
+ehPar = numeroChecado % 2 == 0;
+Console.WriteLine($"O numero {numeroChecado}  é " + (ehPar ? "par" : "impar"));
