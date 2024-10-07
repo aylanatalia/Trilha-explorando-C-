@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lRJutJfJgdI=",
+  "dgSpecHash": "RVF9AGH+A4U=",
   "success": true,
   "projectFilePath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\Ayla\\Programação\\trilha-explorando-C#\\trilha-explorando-C#.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

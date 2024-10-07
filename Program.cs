@@ -2,6 +2,7 @@
 using System.Reflection;
 using System.Reflection.Metadata;
 using trilha_explorando_C_.Models;
+using Newtonsoft.Json;
 
 // instanciando um novo objeto
 Pessoa p1 = new Pessoa();
@@ -231,9 +232,35 @@ else
     Console.WriteLine($"O número {numeroVerificado} é impar");
 }
 
-// chamdno método da maneira ternaria
+// chamando método da maneira ternaria
 int numeroChecado = 15;
 bool ehPar = true;
 
 ehPar = numeroChecado % 2 == 0;
 Console.WriteLine($"O numero {numeroChecado}  é " + (ehPar ? "par" : "impar"));
+
+DateTime dataAtual= DateTime.Now;
+
+//Criando uma lista onde será adicionada as vendas
+List<Vendas> listaVendas = new List<Vendas>();
+
+//Instanciando a venda
+Vendas v1 = new Vendas(1, "Material de escritorio", 25.00M, dataAtual);
+Vendas v2 = new Vendas(2, "Licença de software", 110.00M, dataAtual);
+
+listaVendas.Add(v1);
+listaVendas.Add(v2);
+
+// serializando o objeto em uma string json
+string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+File.WriteAllText("Arquivos/vendas.json", serializado);
+Console.WriteLine(serializado);
+
+//deserializando um arquivo
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+List<Vendido> listaVendido = JsonConvert.DeserializeObject<List<Vendido>>(conteudoArquivo);
+
+foreach (Vendido vendido in listaVendido)
+{
+    Console.WriteLine($"Id: {vendido.Id}, Produto: {vendido.Produto}, Preço: {vendido.Preco}, DataVenda: {vendido.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+}
